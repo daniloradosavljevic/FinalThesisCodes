@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}XSS Forma{% endblock %}
+{% block content %}
+    <form method="post">
+        <input type="text" name="user_input">
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+{% endblock %}
+

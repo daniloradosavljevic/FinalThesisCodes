@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Pocetna stranica{% endblock %}
+{% block content %}
+    <h1>Pocetna stranica</h1>
+    <p>Trenutna vrednost u pametnom ugovoru: {{ current_value }}</p>
+    <ul>
+        <li><a href="/xss">XSS Napad</a></li>
+        <li><a href="/csrf_form">CSRF Napad</a></li>
+        <li><a href="/search">SQL Injekcije</a></li>
+    </ul>
+{% endblock %}
+

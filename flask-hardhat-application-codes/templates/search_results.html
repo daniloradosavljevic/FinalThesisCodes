@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Rezultati pretrage</h1>
+<ul>
+{% for row in result %}
+    <li>{{ row['address'] }}: {{ row['value'] }}</li>
+{% endfor %}
+</ul>
+<a href="/search">Nazad</a>
+{% endblock %}
+

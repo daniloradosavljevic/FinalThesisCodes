@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}JavaScript Hijacking{% endblock %}
+{% block content %}
+    <form method="post" action="/set_value">
+        <input type="text" name="value" id="value_input">
+        <input type="submit" value="Set Value">
+    </form>
+    <script>
+        // JavaScript Hijacking test
+        document.getElementById('value_input').value = "1234"; // Sample value for testing
+    </script>
+{% endblock %}
+
