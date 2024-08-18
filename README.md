@@ -2,7 +2,7 @@
 
 The complete set of source codes used for the implementation of the practical part of the final thesis "Security of Distributed Networks and Applications" at the Faculty of Engineering Sciences, University of Kragujevac.
 
-## Distributed Network Security source codes
+## Distributed Networks Security source codes
 
 Source code for the simulation of attacks on distributed network is available at **mininet-network-simulation-codes** folder of this repository, featuring **mininet_app.py** script. In order to install the required dependencies on **Linux**, it is recommended to use **instalacija.sh** bash script. 
 
