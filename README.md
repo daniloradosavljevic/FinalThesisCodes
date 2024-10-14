@@ -1,6 +1,6 @@
 # FinalThesisCodes
 
-The complete set of source codes used for the implementation of the practical part of the final thesis "Security of Distributed Networks and Applications" at the Faculty of Engineering Sciences, University of Kragujevac.
+The complete set of source codes used for the implementation of the practical part of the final thesis "Security of Distributed Networks and Applications" at the Faculty of Engineering, University of Kragujevac.
 
 ## Distributed Networks Security source codes
 
